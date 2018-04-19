@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container__movies {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 20px;
+	grid-column-gap: 20px;
+	margin: 20px 10px 0;
+}
+
+.app__container {
+	background-color: #E6E6E6;
+}
+
+.header {
+	background-color: #848484;
+	z-index: 1;
+}
+
+.header__title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+	color: white;
+	font-size: 50px;
+}
+
+.menu {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__item {
+  padding-bottom: 5px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.select__search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.input__find {
+  text-align: center;
+	width: 250px;
+	height: 30px;
+	margin-right: 5px;
+	border-radius: 10px;
+}
+
+.container__movies {
+  height: 100vh;
+}
+
+.div__container {
+  height: 100vh;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: white;
+}
+.container__link {
+	display: flex;
+	justify-content: center;
+}
+
+.container__description {
+	display:flex;
+	justify-content: center;
+}
